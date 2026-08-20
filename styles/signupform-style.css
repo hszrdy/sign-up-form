@@ -1,3 +1,83 @@
 body {
     font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    margin: 0;
+    background-color: #2d626a;
+    color: #f0f1c7;
+}
+
+aside {
+    position: relative;
+    width: 45vw;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+section h1 {
+    text-align: center;
+}
+
+fieldset {
+    border-color: #aecdc7;
+    gap: 1rem;
+}
+
+form {
+   box-shadow:#428a91 0px 5px 20px 5px;
+   border-radius: 10px;
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#side-img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.banner-wrapper {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: auto 0;
+    width: 100%;
+    top: 45%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: clamp(0.1rem, 1.6vw, 3rem);
+    text-wrap: wrap;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 3rem;
+}
+
+.submit-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.submit-btn-wrapper button {
+    width: 20vw;
+    height: 3vh;
 }
