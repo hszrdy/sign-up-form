@@ -85,6 +85,16 @@ fieldset div {
     box-shadow:#428a91 0px 5px 20px 5px;
 }
 
+.signup-form .pw:focus {
+    outline: none;
+    box-shadow:#428a91 0px 5px 20px 5px;
+}
+
+.signup-form .pw:user-invalid {
+    outline: red;
+    box-shadow: 0 0 20px 5px red;
+}
+
 .submit-btn-wrapper {
     display: flex;
     flex-direction: column;
